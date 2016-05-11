@@ -16,7 +16,7 @@
 #This is good to avoid to allow for efficient memory use when analyzing extremely large strings as the above method would double the memory requirement 
 #by creating a new string of equal size but reversed.
 #
-#The requirement to access each character only once is also beneficial as this will prevent uncessary searching
+#The requirement to access each character only once is also beneficial as this will prevent unecessary searching
 #and iterating espcially for extremely large strings and thereby decrease computational time.
 #
 #Author::		Carl Andrew Menning 
@@ -26,7 +26,7 @@ class String
 	#The is_palindrome? method returns a boolean true/false depending on if the string
 	#being test is spelled the same forwards and backwards, regardless of case.  This method
 	#allows all characters to be analyzed, such as special characters, to be included in the analysis.
-	#This assumes that the test string has been stripped of all unwanted white space  or characters before being tested.
+	#This assumes that the test string has been stripped of all unwanted white space or characters before being tested.
 	#
 	#*Args*	  :
 	#- String object receiver -> test string containing characters to be analyzed
