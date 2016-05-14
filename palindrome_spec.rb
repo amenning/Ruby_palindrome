@@ -1,3 +1,6 @@
+require 'simplecov'
+SimpleCov.start
+
 require './palindrome'
 
 describe "is_palindrome? method" do
